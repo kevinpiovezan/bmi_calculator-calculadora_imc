@@ -10,7 +10,7 @@ function meuEscopo() {
         const altura = Number(inputAltura.value);
         console.log(`peso: ${peso},altura= ${altura}`);
         
-        const imc = peso / (altura*altura);
+        let imc = peso / (altura*altura);
         imc = imc.toFixed(2); //Duas casas após a virgula
         const p = document.createElement('p');
 
